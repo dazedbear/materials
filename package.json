@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Micro frontend site serving",
   "scripts": {
-    "init": "lerna bootstrap",
-    "init:scope": "cross-env lerna bootstrap --scope $SCOPE",
+    "init": "lerna bootstrap --hoist",
+    "init:scope": "cross-env lerna bootstrap --hoist --scope $SCOPE",
     "lint": "eslint . --ext js,jsx,ts,tsx",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
     "format": "prettier --write \"./**\""
