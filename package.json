@@ -1,0 +1,23 @@
+{
+  "name": "collagist",
+  "version": "0.0.1",
+  "description": "Micro frontend site serving",
+  "scripts": {
+    "init": "lerna bootstrap",
+    "init:scope": "lerna bootstrap --scope $SCOPE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dazedbear/collagist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dazedbear/collagist/issues"
+  },
+  "homepage": "https://github.com/dazedbear/collagist#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

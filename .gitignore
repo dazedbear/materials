@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ignore package-lock to ensure always use the latest version
+package-lock.json
